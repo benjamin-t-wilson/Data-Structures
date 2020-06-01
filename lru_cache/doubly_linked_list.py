@@ -74,6 +74,7 @@ class DoublyLinkedList:
             # in a list of 1, a single node is both
             self.head = new_node
             self.tail = new_node
+        return new_node
 
     """Removes the List's current head node, making the
     current head's next node the new head of the List.
